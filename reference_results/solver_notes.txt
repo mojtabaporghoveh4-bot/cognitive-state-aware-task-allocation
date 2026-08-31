@@ -1,0 +1,7 @@
+The full receding-horizon MSA-TA model is nonlinear because fatigue, stress,
+impairment, softmax belief, and belief-weighted capacity propagate through
+future binary actions. The proposed_msa_rh and human_unaware_rh methods use
+beam-search receding-horizon optimization over feasible candidate actions.
+The myopic_optimization method uses OR-Tools CP-SAT for an exact current-step
+binary assignment solve when OR-Tools is available, then falls back to beam
+search if CP-SAT is unavailable.

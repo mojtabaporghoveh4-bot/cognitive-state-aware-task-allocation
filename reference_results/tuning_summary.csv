@@ -1,0 +1,4 @@
+scenario,best_score,n_trials
+feasible_load,44.80512512032107,20
+overload_finite_shift,81.18580108946095,20
+dynamic_disturbance,101.17661776728312,20

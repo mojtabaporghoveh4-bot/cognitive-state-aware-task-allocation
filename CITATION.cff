@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper and this repository."
+title: "Cognitive-State-Aware Rolling-Horizon Task Allocation"
+type: software
+authors:
+  - family-names: Porghoveh
+    given-names: Mojtaba
+  - family-names: Carli
+    given-names: Raffaele
+  - family-names: Dotoli
+    given-names: Mariagrazia
+version: 1.0.0
+date-released: 2026-08-31
